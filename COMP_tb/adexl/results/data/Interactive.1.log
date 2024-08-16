@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Nov  3 15:32:33 2023 
+Best design point: 1
+Design specs: 
+	EE746_DDP:COMP_tb:1	corner	Nominal - 
+Design parameters: 
+	VDD		0
+	VBIAS		0
+	VCM		0
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Fri Nov  3 15:32:39 2023 

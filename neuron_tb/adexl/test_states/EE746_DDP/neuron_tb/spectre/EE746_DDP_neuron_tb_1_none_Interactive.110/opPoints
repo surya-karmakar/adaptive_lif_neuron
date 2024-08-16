@@ -1,0 +1,79 @@
+_opPointKeepList = nil
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOpPointStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->index = 18
+tmp1->inLastSet = nil
+tmp1->fullName = "/I0/NM0"
+tmp1->opPoints = "region"
+tmp1->cellName = nil
+tmp1->libName = nil
+tmp1->plotOp = nil
+tmp1->saveOp = 't
+list(tmp1)
+)
+_opPointKeepList = nconc( _opPointKeepList savedComponent) 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOpPointStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->index = 19
+tmp1->inLastSet = nil
+tmp1->fullName = "/I0/PM0"
+tmp1->opPoints = "region"
+tmp1->cellName = nil
+tmp1->libName = nil
+tmp1->plotOp = nil
+tmp1->saveOp = 't
+list(tmp1)
+)
+_opPointKeepList = nconc( _opPointKeepList savedComponent) 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOpPointStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->index = 20
+tmp1->inLastSet = nil
+tmp1->fullName = "/I0/PM1"
+tmp1->opPoints = "region"
+tmp1->cellName = nil
+tmp1->libName = nil
+tmp1->plotOp = nil
+tmp1->saveOp = 't
+list(tmp1)
+)
+_opPointKeepList = nconc( _opPointKeepList savedComponent) 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOpPointStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->index = 21
+tmp1->inLastSet = nil
+tmp1->fullName = "/I0/NM4"
+tmp1->opPoints = "region"
+tmp1->cellName = nil
+tmp1->libName = nil
+tmp1->plotOp = nil
+tmp1->saveOp = 't
+list(tmp1)
+)
+_opPointKeepList = nconc( _opPointKeepList savedComponent) 
+savedComponent = _opPointKeepList 
+_opPointKeepList = 'unbound

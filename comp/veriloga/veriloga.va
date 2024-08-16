@@ -1,0 +1,26 @@
+// VerilogA for EE746_DDP, comp, veriloga
+`include "constants.vams"
+`include "disciplines.vams"
+
+module comp_behav(sigin, sigref, sigout);
+input sigin, sigref;
+output sigout;
+electrical sigin, sigref, sigout;
+parameter real sigout_high = 0.3;
+parameter real sigout_low = 0;
+parameter real sigin_offset = 0;
+parameter real comp_slope = 1000;
+parameter real tdel = 1p;
+parameter real trise = 1p;
+parameter real tfall = 1p;
+
+real vout_val;
+   analog begin
+
+      vout_val = 0.5 * (sigout_high - sigout_low)
+                        * tanh(comp_slope*(V(sigin, sigref)- sigin_offset))
+                      + (sigout_high + sigout_low)/2;
+      V(sigout) <+ transition(vout_val, tdel, trise, tfall);
+        
+ end
+endmodule
